@@ -255,15 +255,15 @@ a.campl-external{background: url("../images/interface/icon-external-link.png") n
 .campl-focus-link{width:33px;height:33px;background:#313131 url(../images/interface/icon-fwd-btn.png) 14px 13px no-repeat;position:absolute;bottom:0;right:0}
 
 /* Inline links */
-.campl-icon{display:inline-block;background:url(../images/interface/icon-links-sprite.png) no-repeat 0 0;width:20px;height:25px;margin-right:2px;position:relative;top:5px}
 
-.campl-print-icon{background-position:0 5px}
-.campl-lock-icon{background-position: 0 -25px}
-.campl-help-icon{background-position: 0 -55px}
-.campl-info-icon{background-position: 0 -80px}
-.campl-excel-icon{background-position:0 -110px}
-.campl-pdf-icon{background-position:  0 -135px}
-.campl-word-icon{background-position: 0 -159px}
+.campl-print-icon{display:inline-block;background:url(../images/interface/icon-print.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-lock-icon{display:inline-block;background:url(../images/interface/icon-lock.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-help-icon{display:inline-block;background:url(../images/interface/icon-help.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-info-icon{display:inline-block;background:url(../images/interface/icon-info.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-excel-icon{display:inline-block;background:url(../images/interface/icon-links-excel.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-pdf-icon{display:inline-block;background:url(../images/interface/icon-links-pdf.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-word-icon{display:inline-block;background:url(../images/interface/icon-links-word.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
+.campl-powerpoint-icon{display:inline-block;background:url(../images/interface/icon-links-powerpoint.svg) no-repeat 0 0;width:24px;height:24px;margin-right:2px;position:relative;top:7px;}
 
 
 /* 4.0 FORMS --------------------------------------------------------------------------------------------------------*/
@@ -475,7 +475,7 @@ legend + .campl-control-group {margin-top: 18px;-webkit-margin-top-collapse: sep
 /* guidance along side form elements */
 .campl-help-block{color: #555555;display: block;margin-bottom: 9px;}
 
-/* 6.0 GRID STRUCTURE & LAYOUT COMPONENTS (Grid taken from centage fluid grid framework)----------------------------------------------------*/
+/* 5.0 GRID STRUCTURE & LAYOUT COMPONENTS (Grid taken from centage fluid grid framework)----------------------------------------------------*/
 body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-row{clear:both;width:100%;}
@@ -573,7 +573,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-heading-container{border-bottom:1px solid #e4e4e4;}
 
-/* 7.0 CUSTOM MODULES -----------------------------------------------------------------------------------------------*/
+/* 6.0 CUSTOM MODULES -----------------------------------------------------------------------------------------------*/
 
 /* Header */
 .campl-global-header{position:relative;z-index:15}
@@ -583,7 +583,7 @@ body{margin:0;padding:0; background:#000;width:100%;}
 
 .campl-main-logo{padding:15px;display:block;float:left}
 .campl-main-logo:visited{text-decoration:none;border:0}
-.campl-homepage-header .campl-main-logo{display:none}
+.campl-homepage-header .campl-main-logo{display:none;}
 
 .campl-search-drawer{border-top:1px solid #3f3f3f;position:relative;z-index:5}
 
@@ -1049,7 +1049,7 @@ caption{background:#fff;padding:5px 0}
 .lt-ie9 .campl-section-list-children li li{font-weight:normal}
 
 
-/* 8.0 MEDIA QUERIES ------------------------------------------------------------------------------------------------*/
+/* 7.0 MEDIA QUERIES ------------------------------------------------------------------------------------------------*/
 
 /* larger screens */
 @media only screen and (min-width: 1200px){
@@ -1423,7 +1423,7 @@ caption{background:#fff;padding:5px 0}
 @media (max-width: 480px) {}
 
 
-/* 9.0 COLOUR THEMES ------------------------------------------------------------------------------------------------*/
+/* 8.0 COLOUR THEMES ------------------------------------------------------------------------------------------------*/
 /* COLOUR LEGEND */
 
 /* Default - turquoise */
@@ -2295,15 +2295,15 @@ table th{border-bottom:#e4e4e4 1px solid}
 .campl-information-panel .campl-notifications-icon{color:#0072cf}
 
 
-/* 10.0 CSS3 ANIMATIONS ----------------------------------------------------------------------------------------------*/
+/* 9.0 CSS3 ANIMATIONS ----------------------------------------------------------------------------------------------*/
 
-/* 11.0 FOUC ----------------------------------------------------------------------------------------------*/
+/* 10.0 FOUC ----------------------------------------------------------------------------------------------*/
 
 .js #global-header-controls{display:none}
 .js .campl-carousel li{display:none}
 .js .campl-secondary-content{display:none}
 
-/* 12.0 PRINT STYLES ------------------------------------------------------------------------------------------------*/
+/* 11.0 PRINT STYLES ------------------------------------------------------------------------------------------------*/
 
 @media print {
 
